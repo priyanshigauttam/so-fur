@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    /* background-color: #00ffff; */
+    padding-top: 50px;
+  
+    
+}
+nav ul{
+    /* justify-content: space-evenly; */
+    display: flex;  
+    justify-content: center;
+    margin-right: 100px;
+   
+}
+nav ul li{
+    list-style: none;
+    
+    margin-bottom: 50px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    margin-left: 50px;
+    font-weight: 900;
+    
+}
+nav ul li a:hover{
+    color: rgb(0, 94, 255);
+    /* text-decoration: underline; */
+}
+
+
+
+
+
+ .act, a:hover{
+    color: rgb(0, 94, 255);
+    /* text-decoration: underline; */
+}
+.icon a{
+    color: black;
+}
+
+.icon{
+    margin-top: -70px;
+    margin-left: 80%;
+    display: flex;
+    
+
+}
+i{
+    margin-left: 20px;
+}
+i:hover{
+    color: rgb(0, 94, 255);
+}
+
+
+
+
+.one, .two ,.three{
+    width: 90%;
+    height: 600px;
+    margin-left: 5%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-radius: 80px;
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.bt, .btn, .bttn{
+    background-color: rgba(0, 0, 0, 0.937);
+    color: white;
+    width: 40%;
+    text-align: center;
+    height: 200px;
+    margin-top: -400px;
+    margin-left: 30%;
+   border-radius: 30px;
+   position: relative;
+   display: block;
+}
+
+
+h3{
+    font-size: 56px;
+    padding: 5%;
+}
+
+
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+button:hover{
+    color: white;
+    background-color: rgb(0, 94, 255);
+}
+
+
+.b{
+    margin-left: 47%;
+    /* margin-top: 30px; */
+    margin-bottom: 50px;
+    border: grey;
+}
+
+
+footer{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    margin-top: 150px;
+    color: white;
+    /* display: flex; */
+}
+.list{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    /* margin-top: 100px; */
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+ .list li{
+    list-style: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.list ul{
+    margin-top: 100px;
+    font-size: 32px;
+    
+}
+
+.list ul li:hover{
+    color: rgb(0, 94, 255);
+}
+
+hr{
+    margin-top: 50px;
+    height: 2px;
+}
+

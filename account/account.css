@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    /* background-color: #00ffff; */
+    padding-top: 50px;
+  
+    
+}
+nav ul{
+    /* justify-content: space-evenly; */
+    display: flex;  
+    justify-content: center;
+    margin-right: 100px;
+   
+}
+nav ul li{
+    list-style: none;
+    
+    margin-bottom: 50px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    margin-left: 50px;
+    font-weight: 900;
+    
+}
+nav ul li a:hover{
+    color: rgb(0, 94, 255);
+    /* text-decoration: underline; */
+}
+
+
+
+#act, i:hover{
+    color: rgb(0, 94, 255);
+}
+.icon{
+    margin-top: -70px;
+    margin-left: 80%;
+    display: flex;
+}
+.icon a{
+    color: black;
+}
+
+
+
+
+i{
+    margin-left: 20px;
+}
+i:hover{
+    color: rgb(0, 94, 255);
+}
+
+
+
+
+.acc{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+h1{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.complete{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    margin-top: 30px;
+    height: 400px;
+}
+.fir{
+    width: 48%;
+    border: 1px solid grey;
+    margin-right: 10px;
+   height: 400px;
+   border-radius: 10px;
+
+}
+
+.fir h2, .sec h2{
+    font-size: 32px;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+
+.fir p{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.fir button{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 300px;
+    border-radius: 10px;
+    color: rgb(0, 94, 255);
+    font-size: 24px;
+    height: 40px;
+    border: 1px solid rgb(0, 94, 255);
+}
+.sec{
+    width: 48%;
+    height: 400px;
+    border: 1px solid grey;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+label{
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+input{
+    margin-left: 20px;
+    width: 450px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.286);
+    outline: none;
+    margin-top: 5px;
+}
+.sec h2{
+    margin-bottom: 10px;
+}
+h4{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.sec button{
+    color: white;
+    background: rgb(0, 94, 255);
+    border: none;
+    font-size: 24px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 20px;
+
+}
+
+
+
